@@ -44,7 +44,7 @@ const AddMovieForm = (props) => {
       <div className="modal-content">
         <form onSubmit={handleSubmit}>
           <div className="modal-header">
-            <h4 className="modal-title">Editing <strong>{movie.title}</strong></h4>
+            <h4 className="modal-title">Adding Movie <strong>{movie.title}</strong></h4>
           </div>
           <div className="modal-body">
             <div className="form-group">
